@@ -2,6 +2,9 @@
 namespace Api\Controller;
 use Think\Controller;
 class AddressController extends PublicController {
+    public function get_str(){
+        echo 456;
+    }
 	//***************************
 	//  获取会员地址数据接口
 	//***************************
